@@ -58,11 +58,11 @@ Página do Notion NLW Return - Origin:
 
 ### 📱 Mobile
 
-[Em breve]
+⚠ [Em breve 🔜]
 
 ### 💻 Web
 
-[Em breve]
+⚠ [Em breve 🔜]
 
 ---
 
