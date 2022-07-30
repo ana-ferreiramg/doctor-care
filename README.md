@@ -24,7 +24,7 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-layout">Layout</a> • 
- <a href="#-pre-requisitos">Pré-requisitos</a> • 
+ <a href="#-pré-requisitos">Pré-requisitos</a> • 
  <a href="#-tecnologias">Tecnologias</a> •  
  <a href="#-autor">Autor</a> • 
  <a href="#user-content--licença">Licença</a>
