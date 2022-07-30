@@ -90,7 +90,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🦸 Autor
 
 <a href="https://github.com/ana-ferreiramg">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60697599?v=4" width="100px;" alt=""/>
+ <img src="https://avatars.githubusercontent.com/u/60697599?v=4" width="100px;" alt="Imagem de perfil de Ana Ferreira" style="border-radius: 50%;"/>
  <br />
  <sub><b>Ana Ferreira</b> 🚀</sub>
  <br />
