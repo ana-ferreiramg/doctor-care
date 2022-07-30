@@ -1,3 +1,11 @@
+<h1 align="center">
+    🩺 <a href="#" alt="Site do DoctorCare"> DoctorCare </a>
+</h1>
+
+<h3 align="center">
+    🩺 Assistência médica simplificada para todos. ❤️
+</h3>
+
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ana-ferreiramg/doctor-care?color=%2304D361">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ana-ferreiramg/doctor-care">
@@ -10,12 +18,12 @@
   </a>
 </p>
 
-<h1 align="center">
+<h2 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/banner.png" />
-</h1>
+</h2>
 
 <h4 align="center"> 
-	🚧 DoctorCare ⚙ Em construção... 🚧
+	🚧 🩺 DoctorCare ⚙ Em construção... 🚧
 </h4>
 
 <p align="center">
