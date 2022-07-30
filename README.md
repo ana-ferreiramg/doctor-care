@@ -1,15 +1,12 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ana-ferreiramg/doctor-care?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/README-ecoleta">
-  <a href="https://github.com/tgmarinho/README-ecoleta/commits/master">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ana-ferreiramg/doctor-care">
+  <a href="https://github.com/ana-ferreiramg/doctor-care/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ana-ferreiramg/doctor-care">
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <a href="https://rocketseat.com.br">
     <img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
-  </a>
-  <a href="https://blog.rocketseat.com.br/">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
   </a>
 </p>
 
@@ -98,6 +95,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto esta sobe a licença [MIT](./LICENSE.md).
 
 Feito com ❤️ por Ana Ferreira 👋🏽 [Entre em contato!](https://www.linkedin.com/in/ana--ferreira/)
