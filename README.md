@@ -1,3 +1,11 @@
+<h1 align="center">
+    🩺 <a href="#" alt="Site do DoctorCare"> DoctorCare </a>
+</h1>
+
+<h3 align="center">
+    🩺 Assistência médica simplificada para todos. ❤️
+</h3>
+
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ana-ferreiramg/doctor-care?color=%2304D361">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ana-ferreiramg/doctor-care">
@@ -10,12 +18,12 @@
   </a>
 </p>
 
-<h1 align="center">
+<h2 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/banner.png" />
-</h1>
+</h2>
 
 <h4 align="center"> 
-	🚧 DoctorCare ⚙ Em construção... 🚧
+	🚧 🩺 DoctorCare ⚙ Em construção... 🚧
 </h4>
 
 <p align="center">
@@ -50,11 +58,11 @@ Página do Notion NLW Return - Origin:
 
 ### 📱 Mobile
 
-[Em breve]
+⚠ [Em breve 🔜]
 
 ### 💻 Web
 
-[Em breve]
+⚠ [Em breve 🔜]
 
 ---
 
@@ -82,7 +90,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🦸 Autor
 
 <a href="https://github.com/ana-ferreiramg">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60697599?v=4" width="100px;" alt=""/>
+ <img src="https://avatars.githubusercontent.com/u/60697599?v=4" width="100px;" alt="Imagem de perfil de Ana Ferreira" style="border-radius: 50%;"/>
  <br />
  <sub><b>Ana Ferreira</b> 🚀</sub>
  <br />
