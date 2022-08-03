@@ -1,0 +1,23 @@
+@import './partials/header.css';
+
+:root {
+  --primary-color: #00856f;
+  --secondary-color: #f7f9f9;
+  --first-brand-color: #dce9e2;
+  --second-brand-color: #fffaf1;
+
+  --first-section-color: #f7f9f9;
+  --second-section-color: #ffffff;
+
+  --title-color: #212529;
+  --text-color: #495057;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
