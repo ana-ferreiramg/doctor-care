@@ -10,6 +10,7 @@ header {
 
   text-align: center;
   background-color: var(--first-brand-color);
+  margin-top: var(--navbar-height);
 }
 
 header h1 {
