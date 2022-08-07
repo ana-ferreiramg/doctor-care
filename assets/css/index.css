@@ -6,6 +6,7 @@
   --secondary-color: #f7f9f9;
   --first-brand-color: #dce9e2;
   --second-brand-color: #fffaf1;
+  --brand-border-color: #dce9e2;
 
   --first-section-color: #f7f9f9;
   --second-section-color: #ffffff;
@@ -23,9 +24,14 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  font: 400 1.6rem 'Poppins', sans-serif;
-  width: 37.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font: 400 1.6rem 'Inter', sans-serif;
   margin: 0 auto;
 }
 
@@ -37,4 +43,41 @@ h3 {
 p {
   font-size: 1.6rem;
   color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+a.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  cursor: pointer;
+
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  margin: 3.2rem 0;
+  padding: 1.6rem 3.2rem;
+  width: 27.4rem;
+  height: 5.2rem;
+
+  border: none;
+  border-radius: 4rem;
+}
+
+nav,
+header,
+main,
+footer {
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+.wrapper {
+  padding-inline: 2.4rem;
 }
