@@ -167,3 +167,9 @@ body.menu-expanded div.navbar button i {
     opacity: 0;
   }
 }
+
+@media (min-width: 992px) {
+  nav.wrapper {
+    padding-inline: 12.3rem;
+  }
+}
