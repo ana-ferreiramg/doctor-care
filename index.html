@@ -19,7 +19,7 @@
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
   </head>
-  <body onscroll="onScroll()" class="">
+  <body onscroll="onScroll()" id="home">
     <nav id="navigation" class="wrapper">
       <div class="navbar">
         <h2>Doctor<span>Care</span></h2>
@@ -30,16 +30,16 @@
       <div class="menu">
         <ul class="menu__links">
           <li>
-            <a href="#home">Início</a>
+            <a onclick="expandedMenu()" href="#home">Início</a>
           </li>
           <li>
-            <a href="#about">Sobre</a>
+            <a onclick="expandedMenu()" href="#about">Sobre</a>
           </li>
           <li>
-            <a href="#services">Serviços</a>
+            <a onclick="expandedMenu()" href="#services">Serviços</a>
           </li>
           <li>
-            <a href="#statements">Depoimentos</a>
+            <a onclick="expandedMenu()" href="#statements">Depoimentos</a>
           </li>
         </ul>
 
@@ -139,6 +139,94 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section id="statements">
+        <h3>Depoimentos</h3>
+        <p>O que os clientes dizem sobre o DoctorCare</p>
+        <div id="carouselStatements" class="carousel statements__group-cards" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselStatements" data-slide-to="0" class="carousel-indicators--active"></li>
+            <li data-target="#carouselStatements" data-slide-to="1"></li>
+            <li data-target="#carouselStatements" data-slide-to="2"></li>
+          </ol>
+
+          <div class="statements__group-cards">
+            <div class="card carousel-item--active">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+              <div class="card__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
+              </div>
+              <div class="card__footer">
+                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
+                <p>Wanessa Souza</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+              <div class="card__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
+              </div>
+              <div class="card__footer">
+                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
+                <p>Wanessa Souza</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+              <div class="card__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
+              </div>
+              <div class="card__footer">
+                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
+                <p>Wanessa Souza</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+              <div class="card__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
+              </div>
+              <div class="card__footer">
+                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
+                <p>Wanessa Souza</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+              <div class="card__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
+              </div>
+              <div class="card__footer">
+                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
+                <p>Wanessa Souza</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
+              </div>
+              <div class="card__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
+              </div>
+              <div class="card__footer">
+                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
+                <p>Wanessa Souza</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://br.freepik.com/fotos-vetores-gratis/celular">Avatar vetor criado por freepik - br.freepik.com</a>
       </section>
     </main>
     <script src="/assets/js/index.js"></script>
