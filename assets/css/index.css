@@ -1,6 +1,7 @@
 @import './partials/nav.css';
 @import './partials/header.css';
 @import './partials/services.css';
+@import './partials/statements.css';
 
 :root {
   --primary-color: #00856f;
@@ -17,12 +18,19 @@
   --text-color-light: #ffffff;
 
   --navbar-height: 7.2rem;
+  --header-height: 108rem;
+  --services-height: 203.4rem;
+  --statements-height: 122.2rem;
 
   font-size: 62.5%;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -34,6 +42,7 @@ body {
 body {
   font: 400 1.6rem 'Inter', sans-serif;
   margin: 0 auto;
+  scroll-margin-top: calc(4.1rem + var(--navbar-height));
 }
 
 h2,
