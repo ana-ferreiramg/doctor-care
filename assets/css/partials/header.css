@@ -14,7 +14,7 @@ header::before {
   left: 0;
   background-color: var(--first-brand-color);
   width: 100%;
-  height: calc(108rem + var(--navbar-height));
+  height: calc(var(--header-height) + var(--navbar-height));
   z-index: -1;
 }
 

@@ -50,13 +50,14 @@ nav .menu {
   opacity: 0;
   visibility: hidden;
   position: fixed;
+
   top: calc(var(--navbar-height) - 0.5rem);
   left: 0;
+
   width: 100vw;
   height: 100vh;
-  transition: 0.3s linear;
-  animation-duration: 0.3s;
-  animation-name: easeIn;
+
+  transform: translateY(100%);
 }
 
 .menu ul {
@@ -130,8 +131,8 @@ body.menu-expanded .menu {
   width: 100vw;
   height: 100vh;
 
-  animation-duration: 0.3s;
-  animation-name: easeIn;
+  transition: transform 400ms;
+  transform: translateY(0);
 
   opacity: 1;
   visibility: visible;
@@ -146,26 +147,6 @@ body.menu-expanded div.navbar h2,
 body.menu-expanded div.navbar h2 span,
 body.menu-expanded div.navbar button i {
   color: var(--text-color-light);
-}
-
-@keyframes easeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes easeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
 }
 
 @media (min-width: 992px) {
