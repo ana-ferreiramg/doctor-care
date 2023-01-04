@@ -22,16 +22,16 @@
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/banner.png" />
 </h2>
 
-<h4 align="center"> 
+<h4 align="center">
 	🚧 🩺 DoctorCare ⚙ Em construção... 🚧
 </h4>
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-pré-requisitos">Pré-requisitos</a> • 
- <a href="#-tecnologias">Tecnologias</a> •  
- <a href="#-autor">Autor</a> • 
+ <a href="#-layout">Layout</a> •
+ <a href="#-pré-requisitos">Pré-requisitos</a> •
+ <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#-autor">Autor</a> •
  <a href="#user-content--licença">Licença</a>
 </p>
 
@@ -103,6 +103,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE.md).
+Este projeto esta sob a licença [MIT](./LICENSE.md).
 
 Feito com ❤️ por Ana Ferreira 👋🏽 [Entre em contato!](https://www.linkedin.com/in/ana--ferreira/)
