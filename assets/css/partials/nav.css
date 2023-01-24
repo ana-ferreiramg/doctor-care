@@ -7,7 +7,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--first-brand-color);
-  padding: 1.6rem 2.4rem;
+  padding: 1.6rem 0;
   height: var(--nav-height);
   width: 100vw;
   z-index: 1;
@@ -151,6 +151,81 @@ body.menu-expanded div.navbar button i {
 }
 
 @media (min-width: 992px) {
+  div.navbar button {
+    display: none;
+  }
+
+  div.navbar h2 {
+    flex: 1;
+  }
+
+  nav .menu {
+    flex: 3;
+    opacity: 1;
+    visibility: visible;
+    position: inherit;
+    display: flex;
+    gap: 2rem;
+
+    width: 100%;
+    height: 100%;
+
+    transform: translateY(0);
+  }
+
+  .menu ul.menu__links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .menu ul.menu__links li {
+    flex: 1;
+  }
+
+  .menu ul.menu__links a {
+    text-transform: none;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    padding-bottom: 1.6rem;
+    border-bottom: 2px solid transparent;
+    transition: all ease-in-out 0.1s;
+  }
+
+  .menu ul.menu__links a:hover {
+    font-weight: 700;
+    border-color: var(--primary-color);
+  }
+
+  nav.nav--scroll .menu ul.menu__links a {
+    color: var(--text-color-light);
+  }
+
+  nav.nav--scroll .menu ul.menu__links a:hover {
+    border-color: var(--text-color-light);
+  }
+
+  .menu a.btn {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 1.6rem 1rem;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+  }
+
+  nav.nav--scroll .menu a.btn {
+    color: var(--text-color-light);
+    border-color: var(--text-color-light);
+  }
+
+  .menu ul.menu__socials {
+    display: none;
+  }
+
   nav.wrapper {
     padding-inline: 12.3rem;
   }

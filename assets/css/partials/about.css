@@ -2,7 +2,29 @@ section#about {
   background-color: var(--second-brand-color);
 }
 
-section#about div {
-  padding: 2.4rem 0;
+section#about .container {
+  display: grid;
+  grid-template-areas:
+    'content'
+    'image';
+  place-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+section#about .container div {
   line-height: 2.4rem;
+  grid-area: content;
+}
+
+section#about .container div p {
+  grid-area: image;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  section#about .container {
+    grid-template-areas: 'image content';
+  }
 }

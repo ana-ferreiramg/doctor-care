@@ -1,3 +1,17 @@
+section#contact .container {
+  display: grid;
+  grid-template-areas:
+    'content content'
+    'image image';
+  place-items: center flex-end;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+section#contact .container div {
+  grid-area: content;
+}
+
 section#contact .address {
   margin-top: 2.4rem;
 }
@@ -14,5 +28,23 @@ section#contact .address i {
 }
 
 section#contact img {
-  margin-top: 3rem;
+  grid-area: image;
+}
+
+@media screen and (min-width: 768px) {
+  section#contact .container {
+    grid-template-areas: 'content image';
+  }
+
+  section#contact .container p {
+    width: 15ch;
+  }
+
+  section#contact .container a.btn {
+    margin-inline: 0;
+  }
+
+  section#contact .container:nth-child(2) {
+    justify-items: flex-end;
+  }
 }

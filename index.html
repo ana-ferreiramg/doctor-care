@@ -30,37 +30,37 @@
           <button aria-expanded="false" aria-label="Abrir menu">
             <i class="fa-solid fa-bars fa-2xl"></i>
           </button>
-        </div>
 
-        <div class="menu">
-          <ul class="menu__links">
-            <li>
-              <a onclick="expandedMenu()" href="#home">Início</a>
-            </li>
-            <li>
-              <a onclick="expandedMenu()" href="#about">Sobre</a>
-            </li>
-            <li>
-              <a onclick="expandedMenu()" href="#services">Serviços</a>
-            </li>
-            <li>
-              <a onclick="expandedMenu()" href="#contact">Contato</a>
-            </li>
-          </ul>
+          <div class="menu">
+            <ul class="menu__links">
+              <li>
+                <a onclick="expandedMenu()" href="#home">Início</a>
+              </li>
+              <li>
+                <a onclick="expandedMenu()" href="#about">Sobre</a>
+              </li>
+              <li>
+                <a onclick="expandedMenu()" href="#services">Serviços</a>
+              </li>
+              <li>
+                <a onclick="expandedMenu()" href="#contact">Contato</a>
+              </li>
+            </ul>
 
-          <a href="#" class="btn">Agende sua consulta</a>
+            <a href="#" class="btn">Agendar consulta</a>
 
-          <ul class="menu__socials">
-            <li>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-          </ul>
+            <ul class="menu__socials">
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -86,17 +86,17 @@
           alt="Mulher negra sorrindo e vestindo roupa verde." />
 
         <div class="stats">
-          <div>
+          <div class="stats__card">
             <h3>+3.500</h3>
             <p>Pacientes atendidos</p>
           </div>
 
-          <div>
+          <div class="stats__card">
             <h3>+15</h3>
             <p>Especialistas disponíveis</p>
           </div>
 
-          <div>
+          <div class="stats__card">
             <h3>+10</h3>
             <p>Anos no mercado</p>
           </div>
@@ -104,10 +104,10 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section id="services">
+      <section id="services">
+        <div class="container">
           <h3>Serviços</h3>
-          <p>Como podemos ajudá-lo a se sentir melhor?</p>
+          <p class="subtitle">Como podemos ajudá-lo a se sentir melhor?</p>
           <div class="services__group-cards">
             <div class="card">
               <div class="card__header">
@@ -182,48 +182,56 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section id="about">
-          <h3>Sobre Nós</h3>
-          <p>Entenda quem somos e por que existimos</p>
+      <section id="about">
+        <div class="container">
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-            expedita dignissimos voluptates cumque, voluptatem nobis quisquam,
-            iusto est placeat odit minima rem tempore enim nulla porro incidunt,
-            saepe harum excepturi. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit.
+            <h3>Sobre Nós</h3>
+            <p class="subtitle">Entenda quem somos e por que existimos</p>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              expedita dignissimos voluptates cumque, voluptatem nobis quisquam,
+              iusto est placeat odit minima rem tempore enim nulla porro
+              incidunt, saepe harum excepturi. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </div>
           </div>
 
           <img
             src="./assets/img/Pic.png"
             alt="Mãe e filha sorrindo para o médico." />
-        </section>
+        </div>
+      </section>
 
-        <section id="contact">
-          <p>Entre em contato com a gente!</p>
-          <div class="address">
-            <div>
-              <i class="fa-solid fa-location-dot"></i> Rua Amauri Souza, 346
+      <section id="contact">
+        <div class="container">
+          <div>
+            <p class="subtitle">Entre em contato com a gente!</p>
+            <div class="address">
+              <div>
+                <i class="fa-solid fa-location-dot"></i> Rua Amauri Souza, 346
+              </div>
+              <div>
+                <i class="fa-regular fa-envelope"></i>
+                <a href="mailto:contato@doctorcare.com" target="_blank"
+                  >contato@doctorcare.com</a
+                >
+              </div>
             </div>
-            <div>
-              <i class="fa-regular fa-envelope"></i>
-              <a href="mailto:contato@doctorcare.com" target="_blank"
-                >contato@doctorcare.com</a
-              >
-            </div>
+
+            <a href="#" class="btn">
+              <i class="fa-brands fa-whatsapp fa-lg fa-beat"></i>
+              Agende sua consulta
+            </a>
           </div>
-
-          <a href="#" class="btn">
-            <i class="fa-brands fa-whatsapp fa-lg fa-beat"></i>
-            Agende sua consulta
-          </a>
 
           <img
             src="./assets/img/pic2.png"
             alt="Homem negro segurando o celular e sorrindo" />
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="container">
@@ -248,6 +256,8 @@
         </ul>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="/assets/js/index.js"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@ header {
   align-items: center;
 
   text-align: center;
-  margin-top: calc(4.1rem + var(--navbar-height));
+  margin-top: calc(2rem + var(--navbar-height));
 }
 
 header::before {
@@ -80,7 +80,7 @@ div.stats p:not(:last-child) {
 
 @media screen and (min-width: 768px) {
   header::before {
-    height: calc(47rem + var(--navbar-height));
+    height: calc(55rem + var(--navbar-height));
   }
 
   header .container {
@@ -91,6 +91,9 @@ div.stats p:not(:last-child) {
   }
 
   header .container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     grid-area: content;
     text-align: left;
   }
@@ -101,6 +104,9 @@ div.stats p:not(:last-child) {
 
   header img {
     grid-area: image;
+    width: 35.16rem;
+    height: 45.2rem;
+    object-position: 0 0;
   }
 
   header div.stats {
