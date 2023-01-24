@@ -58,11 +58,21 @@ Página do Notion NLW Return - Origin:
 
 ### 📱 Mobile
 
-⚠ [Em breve 🔜]
+<p align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile.png" style="max-width: 280px"/>
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile_menu.png" style="max-width: 280px"/>
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile2.png" style="max-width: 280px"/>
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile3.png" style="max-width: 280px"/>
+</span>
 
 ### 💻 Web
 
-⚠ [Em breve 🔜]
+<p align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/laptop.png" style="max-width: 1125px" />
+</p>
+<p align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/laptop2.png" style="max-width: 1125px" />
+</p>
 
 ---
 
