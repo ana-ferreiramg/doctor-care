@@ -1,7 +1,9 @@
 @import './partials/nav.css';
 @import './partials/header.css';
 @import './partials/services.css';
-@import './partials/statements.css';
+@import './partials/about.css';
+@import './partials/contact.css';
+@import './partials/footer.css';
 
 :root {
   --primary-color: #00856f;
@@ -18,15 +20,14 @@
   --text-color-light: #ffffff;
 
   --navbar-height: 7.2rem;
-  --header-height: 108rem;
-  --services-height: 203.4rem;
-  --statements-height: 122.2rem;
 
   font-size: 62.5%;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -41,16 +42,23 @@ body {
 
 body {
   font: 400 1.6rem 'Inter', sans-serif;
+  color: var(--text-color);
   margin: 0 auto;
   scroll-margin-top: calc(4.1rem + var(--navbar-height));
+  overflow: overlay;
+  background-color: var(--first-section-color);
 }
 
 h2,
 h3 {
   color: var(--primary-color);
   font-size: 1.4rem;
-  font-weight: 700;
   line-height: 2.1rem;
+}
+
+main h2,
+main h3 {
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -62,6 +70,7 @@ p {
 
 a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 a.btn {
@@ -76,13 +85,16 @@ a.btn {
   text-transform: uppercase;
   text-decoration: none;
 
-  margin: 3.2rem 0;
+  margin: 3.2rem auto;
   padding: 1.6rem 3.2rem;
   width: 27.4rem;
   height: 5.2rem;
 
   border: none;
   border-radius: 4rem;
+
+  background-color: var(--primary-color);
+  color: var(--text-color-light);
 }
 
 header,
@@ -91,16 +103,48 @@ footer {
   margin-inline: auto;
 }
 
+section {
+  padding: 10rem 2.4rem;
+  scroll-margin-top: 5rem;
+}
+
 section h3 {
   margin-bottom: 1.6rem;
 }
 
+section > p {
+  font-size: 3rem;
+  line-height: 3.9rem;
+  font-weight: 700;
+  color: var(--title-color);
+  max-width: 49.7rem;
+  margin-inline: auto;
+}
+
+section#about img,
+section#contact img {
+  width: 100%;
+}
+
 .wrapper {
+  /* width: 37.5rem; */
+  margin-inline: auto;
   padding-inline: 2.4rem;
+}
+
+.container {
+  width: min(100%, 1000px);
+  margin-inline: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: min(100%, 1000px);
+  }
 }
 
 @media (min-width: 992px) {
   .wrapper {
-    padding-inline: 12.3rem;
+    /* padding-inline: 12.3rem; */
   }
 }

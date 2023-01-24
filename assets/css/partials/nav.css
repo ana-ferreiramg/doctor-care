@@ -7,7 +7,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--first-brand-color);
-  padding: 1.6rem 0;
+  padding: 1.6rem 2.4rem;
   height: var(--nav-height);
   width: 100vw;
   z-index: 1;
@@ -23,6 +23,7 @@ nav {
 
 div.navbar h2 {
   font-size: 2.4rem;
+  font-weight: 400;
   color: var(--title-color);
 }
 
@@ -128,7 +129,7 @@ body.menu-expanded .menu {
   position: fixed;
   top: calc(var(--navbar-height) - 0.5rem);
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 
   transition: transform 400ms;
