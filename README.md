@@ -113,6 +113,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
+🚀 Deploy do projeto: [https://nlw-project-doctor-care.netlify.app/](https://nlw-project-doctor-care.netlify.app/)
+
 Este projeto esta sob a licença [MIT](./LICENSE.md).
 
 Feito com ❤️ por Ana Ferreira 👋🏽 [Entre em contato!](https://www.linkedin.com/in/ana--ferreira/)
