@@ -59,10 +59,10 @@ Página do Notion NLW Return - Origin:
 ### 📱 Mobile
 
 <p align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile.png" width="280px"/>
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile_menu.png" width="280px"/>
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile2.png" width="280px"/>
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile3.png" width="280px"/>
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile.png" width="250px"/>
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile_menu.png" width="250px"/>
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile2.png" width="250px"/>
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github/mobile3.png" width="250px"/>
 </span>
 
 ### 💻 Web
