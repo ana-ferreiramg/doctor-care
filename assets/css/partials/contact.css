@@ -1,0 +1,18 @@
+section#contact .address {
+  margin-top: 2.4rem;
+}
+
+section#contact .address div + div {
+  margin-top: 1.5rem;
+}
+
+section#contact .address i {
+  color: var(--primary-color);
+  font-size: 2rem;
+  width: 25px;
+  text-align: center;
+}
+
+section#contact img {
+  margin-top: 3rem;
+}
