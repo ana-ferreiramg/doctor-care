@@ -9,7 +9,9 @@
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet" />
 
     <!-- STYLES -->
     <link rel="stylesheet" href="/assets/css/normalize.css" />
@@ -20,32 +22,220 @@
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
   </head>
   <body onscroll="onScroll()" id="home">
-    <nav id="navigation" class="wrapper">
-      <div class="navbar">
-        <h2>Doctor<span>Care</span></h2>
+    <nav id="navigation">
+      <div class="container">
+        <div class="navbar">
+          <h2>Doctor<span>Care</span></h2>
 
-        <button aria-expanded="false" aria-label="Abrir menu"><i class="fa-solid fa-bars fa-2xl"></i></button>
+          <button aria-expanded="false" aria-label="Abrir menu">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+          </button>
+        </div>
+
+        <div class="menu">
+          <ul class="menu__links">
+            <li>
+              <a onclick="expandedMenu()" href="#home">Início</a>
+            </li>
+            <li>
+              <a onclick="expandedMenu()" href="#about">Sobre</a>
+            </li>
+            <li>
+              <a onclick="expandedMenu()" href="#services">Serviços</a>
+            </li>
+            <li>
+              <a onclick="expandedMenu()" href="#contact">Contato</a>
+            </li>
+          </ul>
+
+          <a href="#" class="btn">Agende sua consulta</a>
+
+          <ul class="menu__socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <header class="wrapper">
+      <div class="container">
+        <div>
+          <h2>Boas-vindas a DoctorCare 👋</h2>
+          <h1>Assistência médica simplificada para todos</h1>
 
-      <div class="menu">
-        <ul class="menu__links">
-          <li>
-            <a onclick="expandedMenu()" href="#home">Início</a>
-          </li>
-          <li>
-            <a onclick="expandedMenu()" href="#about">Sobre</a>
-          </li>
-          <li>
-            <a onclick="expandedMenu()" href="#services">Serviços</a>
-          </li>
-          <li>
-            <a onclick="expandedMenu()" href="#statements">Depoimentos</a>
-          </li>
-        </ul>
+          <p>
+            Os médicos da DoctorCare vão além dos sintomas para tratar a causa
+            raiz de sua doença e proporcionar uma cura a longo prazo.
+          </p>
 
-        <a href="#" class="btn">Agende sua consulta</a>
+          <a href="#" class="btn">
+            <i class="fa-brands fa-whatsapp fa-lg fa-beat"></i>
+            Agende sua consulta
+          </a>
+        </div>
 
-        <ul class="menu__socials">
+        <img
+          src="/assets/img/brand.png"
+          alt="Mulher negra sorrindo e vestindo roupa verde." />
+
+        <div class="stats">
+          <div>
+            <h3>+3.500</h3>
+            <p>Pacientes atendidos</p>
+          </div>
+
+          <div>
+            <h3>+15</h3>
+            <p>Especialistas disponíveis</p>
+          </div>
+
+          <div>
+            <h3>+10</h3>
+            <p>Anos no mercado</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section id="services">
+          <h3>Serviços</h3>
+          <p>Como podemos ajudá-lo a se sentir melhor?</p>
+          <div class="services__group-cards">
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-check"></i></span>
+              </div>
+              <div class="card__body">
+                <h3>Problemas Digestivos</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                  nostrum saepe voluptate quibusdam minima qui.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-check"></i></span>
+              </div>
+              <div class="card__body">
+                <h3>Saúde Hormonal</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                  nostrum saepe voluptate quibusdam minima qui.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-check"></i></span>
+              </div>
+              <div class="card__body">
+                <h3>Bem-estar Mental</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                  nostrum saepe voluptate quibusdam minima qui.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-check"></i></span>
+              </div>
+              <div class="card__body">
+                <h3>Cuidados Pediátricos</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                  nostrum saepe voluptate quibusdam minima qui.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-check"></i></span>
+              </div>
+              <div class="card__body">
+                <h3>Autoimune e Inflamação</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                  nostrum saepe voluptate quibusdam minima qui.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <span class="stamp"><i class="fa-solid fa-check"></i></span>
+              </div>
+              <div class="card__body">
+                <h3>Saúde do Coração</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                  nostrum saepe voluptate quibusdam minima qui.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about">
+          <h3>Sobre Nós</h3>
+          <p>Entenda quem somos e por que existimos</p>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            expedita dignissimos voluptates cumque, voluptatem nobis quisquam,
+            iusto est placeat odit minima rem tempore enim nulla porro incidunt,
+            saepe harum excepturi. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+          </div>
+
+          <img
+            src="./assets/img/Pic.png"
+            alt="Mãe e filha sorrindo para o médico." />
+        </section>
+
+        <section id="contact">
+          <p>Entre em contato com a gente!</p>
+          <div class="address">
+            <div>
+              <i class="fa-solid fa-location-dot"></i> Rua Amauri Souza, 346
+            </div>
+            <div>
+              <i class="fa-regular fa-envelope"></i>
+              <a href="mailto:contato@doctorcare.com" target="_blank"
+                >contato@doctorcare.com</a
+              >
+            </div>
+          </div>
+
+          <a href="#" class="btn">
+            <i class="fa-brands fa-whatsapp fa-lg fa-beat"></i>
+            Agende sua consulta
+          </a>
+
+          <img
+            src="./assets/img/pic2.png"
+            alt="Homem negro segurando o celular e sorrindo" />
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h2>Doctor<span>Care</span></h2>
+          <div class="copyrights">
+            <p>&copy;2023 BeautySalon</p>
+            <span>Todos os direitos reservados.</span>
+          </div>
+        </div>
+
+        <ul class="footer__socials">
           <li>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
           </li>
@@ -57,178 +247,7 @@
           </li>
         </ul>
       </div>
-    </nav>
-    <header class="wrapper">
-      <h2>Boas-vindas a DoctorCare 👋</h2>
-      <h1>Assistência médica simplificada para todos</h1>
-
-      <p>Os médicos da DoctorCare vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.</p>
-
-      <a href="#" class="btn"><i class="fa-brands fa-whatsapp fa-lg fa-beat"></i>Agende sua consulta</a>
-
-      <img src="/assets/img/brand.png" alt="Mulher negra sorrindo e vestindo roupa verde." />
-
-      <div class="stats">
-        <h3>+3.500</h3>
-        <p>Pacientes atendidos</p>
-
-        <h3>+15</h3>
-        <p>Especialistas disponíveis</p>
-
-        <h3>+10</h3>
-        <p>Anos no mercado</p>
-      </div>
-    </header>
-    <main class="wrapper">
-      <section id="services">
-        <h3>Serviços</h3>
-        <p>Como podemos ajudá-lo a se sentir melhor?</p>
-        <div class="services__group-cards">
-          <div class="card">
-            <div class="card__header">
-              <span class="stamp"><i class="fa-solid fa-check"></i></span>
-            </div>
-            <div class="card__body">
-              <h3>Problemas Digestivos</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__header">
-              <span class="stamp"><i class="fa-solid fa-check"></i></span>
-            </div>
-            <div class="card__body">
-              <h3>Saúde Hormonal</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__header">
-              <span class="stamp"><i class="fa-solid fa-check"></i></span>
-            </div>
-            <div class="card__body">
-              <h3>Bem-estar Mental</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__header">
-              <span class="stamp"><i class="fa-solid fa-check"></i></span>
-            </div>
-            <div class="card__body">
-              <h3>Cuidados Pediátricos</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__header">
-              <span class="stamp"><i class="fa-solid fa-check"></i></span>
-            </div>
-            <div class="card__body">
-              <h3>Autoimune e Inflamação</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__header">
-              <span class="stamp"><i class="fa-solid fa-check"></i></span>
-            </div>
-            <div class="card__body">
-              <h3>Saúde do Coração</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="statements">
-        <h3>Depoimentos</h3>
-        <p>O que os clientes dizem sobre o DoctorCare</p>
-        <div id="carouselStatements" class="carousel statements__group-cards" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselStatements" data-slide-to="0" class="carousel-indicators--active"></li>
-            <li data-target="#carouselStatements" data-slide-to="1"></li>
-            <li data-target="#carouselStatements" data-slide-to="2"></li>
-          </ol>
-
-          <div class="statements__group-cards">
-            <div class="card carousel-item--active">
-              <div class="card__header">
-                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
-              </div>
-              <div class="card__body">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-              </div>
-              <div class="card__footer">
-                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
-                <p>Wanessa Souza</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card__header">
-                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
-              </div>
-              <div class="card__body">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-              </div>
-              <div class="card__footer">
-                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
-                <p>Wanessa Souza</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card__header">
-                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
-              </div>
-              <div class="card__body">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-              </div>
-              <div class="card__footer">
-                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
-                <p>Wanessa Souza</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card__header">
-                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
-              </div>
-              <div class="card__body">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-              </div>
-              <div class="card__footer">
-                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
-                <p>Wanessa Souza</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card__header">
-                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
-              </div>
-              <div class="card__body">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-              </div>
-              <div class="card__footer">
-                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
-                <p>Wanessa Souza</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card__header">
-                <span class="stamp"><i class="fa-solid fa-quote-right"></i></span>
-              </div>
-              <div class="card__body">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nostrum saepe voluptate quibusdam minima qui.</p>
-              </div>
-              <div class="card__footer">
-                <img src="/assets/img/avatar.jpg" alt="Mulher sorrindo" />
-                <p>Wanessa Souza</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="https://br.freepik.com/fotos-vetores-gratis/celular">Avatar vetor criado por freepik - br.freepik.com</a>
-      </section>
-    </main>
+    </footer>
     <script src="/assets/js/index.js"></script>
   </body>
 </html>
